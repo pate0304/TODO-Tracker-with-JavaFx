@@ -28,7 +28,6 @@ public class FileUtils {
 	private static final Object lines = null;
 	private static String relPath = "/Users/shiva/Desktop/Assignment01/Assignment01/"; ///CHANGE THE PATH *************************************
 	private ToDo[] stringArray1;
-
 	
 	public ToDo[] getToDoArray(String fileName) throws IOException, ClassNotFoundException{
 	    // TODO: insert required code here, as described in the
