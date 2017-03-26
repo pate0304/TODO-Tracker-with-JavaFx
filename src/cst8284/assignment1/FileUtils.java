@@ -26,7 +26,7 @@ public class FileUtils {
 
 	private final static int NUMBER_OF_TODOS = 4;
 	private static final Object lines = null;
-	private static String relPath = "/Users/shiva/Desktop/Assignment01/Assignment01/";
+	private static String relPath = "/Users/shiva/Desktop/Assignment01/Assignment01/"; ///CHANGE THE PATH *************************************
 	private ToDo[] stringArray1;
 
 	
@@ -35,11 +35,7 @@ public class FileUtils {
  	    // Assignment 1 document
 		ToDo toDos[] =
 				 new ToDo[NUMBER_OF_TODOS];
-			
-		
 	
-		
-		
 	    List<Object> results = new ArrayList<Object>();
 	    FileInputStream fis = new FileInputStream(relPath+fileName);
 	    ObjectInputStream ois = new ObjectInputStream(fis);
